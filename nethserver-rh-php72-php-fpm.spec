@@ -32,6 +32,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed May 08 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
+- First release
+
 * Tue Mar 20 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
 - Nextcloud: upgrade to v13 & optimizations - NethServer/dev#5427
 
