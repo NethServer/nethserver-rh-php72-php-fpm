@@ -9,6 +9,10 @@ BuildArch: noarch
 BuildRequires: nethserver-devtools
 
 Requires: rh-php72, rh-php72-php-fpm
+Requires: rh-php72-php-bcmath, rh-php72-php-gd, sclo-php72-php-imap
+Requires: rh-php72-php-ldap, rh-php72-php-enchant, rh-php72-php-mbstring
+Requires: rh-php72-php-pdo, sclo-php72-php-tidy, rh-php72-php-mysqlnd
+Requires: rh-php72-php-soap, rh-php72-php-pgsql
 
 %description
 Basic support for PHP 7.2 using SCL
