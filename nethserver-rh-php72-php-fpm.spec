@@ -34,6 +34,7 @@ rm -rf %{buildroot}
 %files -f %{name}-%{version}-%{release}-filelist
 %defattr(-,root,root)
 %dir %{_nseventsdir}/%{name}-update
+%config(noreplace) %{_sysconfdir}/opt/rh/rh-php72/php.d/20-opcache.ini
 
 
 %changelog
