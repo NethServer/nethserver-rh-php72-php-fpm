@@ -13,6 +13,7 @@ Requires: rh-php72-php-bcmath, rh-php72-php-gd, sclo-php72-php-imap
 Requires: rh-php72-php-ldap, rh-php72-php-enchant, rh-php72-php-mbstring
 Requires: rh-php72-php-pdo, sclo-php72-php-tidy, rh-php72-php-mysqlnd
 Requires: rh-php72-php-soap, rh-php72-php-pgsql
+Requires: rh-php72-php-pecl-apcu, rh-php72-php-intl
 
 %description
 Basic support for PHP 7.2 using SCL
@@ -48,4 +49,3 @@ rm -rf %{buildroot}
 * Tue Apr 04 2017 Davide Principi <davide.principi@nethesis.it> - 1.0.0-1
 - First release
 - Nextcloud 11 - NethServer/dev#5242
-
