@@ -14,6 +14,7 @@ Requires: rh-php72-php-ldap, rh-php72-php-enchant, rh-php72-php-mbstring
 Requires: rh-php72-php-pdo, sclo-php72-php-tidy, rh-php72-php-mysqlnd
 Requires: rh-php72-php-soap, rh-php72-php-pgsql
 Requires: rh-php72-php-pecl-apcu, rh-php72-php-intl
+Requires: rh-php72-php-opcache
 
 %description
 Basic support for PHP 7.2 using SCL
