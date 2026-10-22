@@ -1,5 +1,5 @@
 Name: nethserver-rh-php72-php-fpm
-Version: 1.1.1
+Version: 1.1.2
 Release: 1%{?dist}
 Summary: NethServer rh-php72-php-fpm configuration
 License: GPL
@@ -38,6 +38,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Oct 22 2026 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.1.2-1
+- PHP critical RCE vulnerabilities (CVE-2026-109618 / CVE-2026-109619) - NethServer/dev#8256
+
 * Wed Dec 18 2019 Davide Principi <davide.principi@nethesis.it> - 1.1.1-1
 - Rh-php7x: opcache dependency - NethServer/dev#5986
 
